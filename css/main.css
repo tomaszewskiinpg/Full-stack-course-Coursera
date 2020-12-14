@@ -1,0 +1,157 @@
+body{
+  background-color: deepskyblue;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+  color: black;
+}
+
+@media (min-width: 992px) {
+
+  .box {
+  margin: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+  .elem1 {
+    width: 30%; 
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .elem2 {
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  .elem3 {
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .box {
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elem1 {
+    width: 48%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elem2 {
+    width: 48%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elem3 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 767px) {
+
+  .box {
+  margin: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  }
+
+  .elem1 {
+    width: 100%; 
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .elem2 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    margin-bottom: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .elem3 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+
+.logo {
+  
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+   background:  lightcoral; 
+   margin: 0px;
+   width: 30%;
+   height: 10%;
+   align-self: flex-end;
+   
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+}
